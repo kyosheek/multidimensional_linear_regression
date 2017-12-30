@@ -1,5 +1,5 @@
 #include <iostream>
-#include "lrmatrix.h"
+#include "lrvector.h"
 
 using namespace std;
 
