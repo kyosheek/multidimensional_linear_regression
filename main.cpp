@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <vector>
 #include "linearregression.h"
-#include "lrmatrix.h"
+#include "lrvector.h"
 
 using namespace std;
 
@@ -127,7 +127,7 @@ void multidimlrrest() {
 	}
 	xget.clear(); str.clear();
 
-	LRMatrix lr(x, y, k / 2);
+	LRVector lr(x, y, k / 2);
 
 	cout << "Enter learning rate alpha: ";
 	double alpha;
@@ -178,7 +178,7 @@ void multidimlrflat() {
 	file.close();
 	str.clear();
 
-	LRMatrix lr(x, y, k);
+	LRVector lr(x, y, k);
 
 	cout << "Enter learning rate alpha: ";
 	double alpha;
