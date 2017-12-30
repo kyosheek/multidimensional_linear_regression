@@ -6,14 +6,14 @@
 
 using namespace std;
 
-class LRMatrix {
+class LRVector {
 public:
 	vector<vector<double>> x;
 	vector<double> y;
 	int m;
 	vector<double> t;
 
-	LRMatrix(vector<vector<double>> x, vector<double> y, int m);
+	LRVector(vector<vector<double>> x, vector<double> y, int m);
 
 	void train(double alpha, int iter);
 	double predict(vector<double> x);
