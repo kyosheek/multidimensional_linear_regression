@@ -1,6 +1,6 @@
 #pragma once
-#ifndef LRMATRIX_H
-#define LRMATRIX_H
+#ifndef LRVECTOR_H
+#define LRVECTOR_H
 
 #include <vector>
 
@@ -26,4 +26,4 @@ private:
 	static vector<double> graident_descent(vector<vector<double>> x, vector<double> y, double alpha, double *J, int iter, int m);
 };
 
-#endif //LRMATRIX_H
+#endif //LRVECTOR_H
